@@ -49,6 +49,7 @@ let draw = ()=>{
     msg.innerText = `The Game is a Draw`;
     msgContainer.classList.remove("hide");
     disableBox();
+    count = 0;
 };
 let showWinner = (winner)=>{
     msg.innerText = `Congratulations! Winner is ${winner}`;
